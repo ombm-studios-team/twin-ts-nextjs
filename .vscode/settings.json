@@ -24,11 +24,11 @@
     "jest.setup.js": true,
     ".eslintrc.js": true,
     "stories": true,
-    ".swc/plugins/v4": true,
-    ".swc/plugins": true,
-    ".swc": true,
     "pages/_document.tsx": true,
-    ".storybook": true
+    ".storybook": true,
+    ".swc/plugins/v4": true,
+    ".swc": true,
+    ".husky": true
   },
   "hide-files.files": [
     ".next",
@@ -48,11 +48,11 @@
     "jest.setup.js",
     ".eslintrc.js",
     "stories",
-    ".swc/plugins/v4",
-    ".swc/plugins",
-    ".swc",
     "pages/_document.tsx",
-    ".storybook"
+    ".storybook",
+    ".swc/plugins/v4",
+    ".swc",
+    ".husky"
   ],
   "conventionalCommits.scopes": [
     "global",
