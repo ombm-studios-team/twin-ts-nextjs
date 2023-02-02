@@ -13,12 +13,12 @@
     ".gitignore": true,
     "next-env.d.ts": true,
     "package-lock.json": true,
-    "tsconfig.json": true,
     "README.md": true,
     "next.config.js": true,
     ".prettierignore": true,
     ".prettierrc": true,
-    ".eslintignore": true
+    ".eslintignore": true,
+    "**/node_modules": true
   },
   "hide-files.files": [
     ".next",
@@ -28,7 +28,6 @@
     ".gitignore",
     "next-env.d.ts",
     "package-lock.json",
-    "tsconfig.json",
     "README.md",
     "next.config.js",
     ".prettierignore",
