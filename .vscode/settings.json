@@ -22,13 +22,16 @@
     "withTwin.js": true,
     "tsconfig.json": true,
     "jest.setup.js": true,
-    ".eslintrc.js": true,
     "stories": true,
     "pages/_document.tsx": true,
     ".storybook": true,
     ".swc/plugins/v4": true,
     ".swc": true,
-    ".husky": true
+    ".husky": true,
+    ".babelrc.js": true,
+    "jest.config.js": true,
+    ".eslintrc.js": true,
+    ".eslintcache": true
   },
   "hide-files.files": [
     ".next",
@@ -46,13 +49,16 @@
     "withTwin.js",
     "tsconfig.json",
     "jest.setup.js",
-    ".eslintrc.js",
     "stories",
     "pages/_document.tsx",
     ".storybook",
     ".swc/plugins/v4",
     ".swc",
-    ".husky"
+    ".husky",
+    ".babelrc.js",
+    "jest.config.js",
+    ".eslintrc.js",
+    ".eslintcache"
   ],
   "conventionalCommits.scopes": [
     "global",

@@ -48,6 +48,6 @@ module.exports = {
         unnamedComponents: 'arrow-function'
       }
     ],
-    'prettier/prettier': ['warn', { endOfLine: 'auto' }]
+    'prettier/prettier': [1, { endOfLine: 'auto' }]
   }
 };
