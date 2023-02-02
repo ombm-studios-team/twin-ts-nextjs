@@ -22,7 +22,6 @@
     "withTwin.js": true,
     "tsconfig.json": true,
     "jest.setup.js": true,
-    "jest.config.js": true,
     ".eslintrc.js": true,
     "stories": true,
     ".swc/plugins/v4": true,
@@ -47,7 +46,6 @@
     "withTwin.js",
     "tsconfig.json",
     "jest.setup.js",
-    "jest.config.js",
     ".eslintrc.js",
     "stories",
     ".swc/plugins/v4",
@@ -57,6 +55,7 @@
     ".storybook"
   ],
   "conventionalCommits.scopes": [
-    "global"
+    "global",
+    "testing"
   ]
 }
