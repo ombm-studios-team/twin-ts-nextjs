@@ -1,4 +1,5 @@
 import tw, { styled, css, theme } from 'twin.macro';
+import { createSerializer } from '@emotion/jest';
 
 interface ButtonProps {
   variant?: 'primary' | 'secondary';
@@ -20,7 +21,7 @@ const Button = styled.button(({ variant, isSmall }: ButtonProps) => [
     css`
       box-shadow: 0 0.1em 0 0 rgba(0, 0, 0, 0.25);
     `,
-    tw`border-2 border-yellow-600`,
+    tw`border-2 border-yellow-600`
   ],
 
   // Conditional props can be used
@@ -29,7 +30,8 @@ const Button = styled.button(({ variant, isSmall }: ButtonProps) => [
   // The theme import can supply values from your tailwind.config.js
   css`
     color: ${theme`colors.white`};
-  `,
+  `
 ]);
 
+expect.addSnapshotSerializer(createSerializer());
 export default Button;

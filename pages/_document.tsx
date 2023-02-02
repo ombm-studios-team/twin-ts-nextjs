@@ -4,7 +4,7 @@ import Document, {
   Main,
   NextScript,
   DocumentContext,
-  DocumentInitialProps,
+  DocumentInitialProps
 } from 'next/document';
 import { extractCritical } from '@emotion/server';
 

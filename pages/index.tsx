@@ -1,5 +1,5 @@
 import tw from 'twin.macro';
-import { Button, Logo } from '../components';
+import { Button } from '../components';
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -16,7 +16,6 @@ const App = () => (
       <Button variant="secondary">Cancel</Button>
       <Button isSmall>Close</Button>
     </div>
-    <Logo />
   </div>
 );
 
