@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import renderer from 'react-test-renderer';
 import tw, { styled, css, theme } from 'twin.macro';
 import Logo from '../components/Logo';

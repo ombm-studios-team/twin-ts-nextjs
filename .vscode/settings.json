@@ -6,6 +6,7 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
+    "**/node_modules": true,
     ".next": true,
     ".vscode": true,
     "node_modules": true,
@@ -18,7 +19,17 @@
     ".prettierignore": true,
     ".prettierrc": true,
     ".eslintignore": true,
-    "**/node_modules": true
+    "withTwin.js": true,
+    "tsconfig.json": true,
+    "jest.setup.js": true,
+    "jest.config.js": true,
+    ".eslintrc.js": true,
+    "stories": true,
+    ".swc/plugins/v4": true,
+    ".swc/plugins": true,
+    ".swc": true,
+    "pages/_document.tsx": true,
+    ".storybook": true
   },
   "hide-files.files": [
     ".next",
@@ -32,7 +43,18 @@
     "next.config.js",
     ".prettierignore",
     ".prettierrc",
-    ".eslintignore"
+    ".eslintignore",
+    "withTwin.js",
+    "tsconfig.json",
+    "jest.setup.js",
+    "jest.config.js",
+    ".eslintrc.js",
+    "stories",
+    ".swc/plugins/v4",
+    ".swc/plugins",
+    ".swc",
+    "pages/_document.tsx",
+    ".storybook"
   ],
   "conventionalCommits.scopes": [
     "global"
