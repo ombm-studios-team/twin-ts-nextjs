@@ -14,16 +14,11 @@
     "next-env.d.ts": true,
     "package-lock.json": true,
     "tsconfig.json": true,
-    "withTwin.js": true,
     "README.md": true,
     "next.config.js": true,
-    "pages/_document.tsx": true,
-    ".husky/_": true,
     ".prettierignore": true,
     ".prettierrc": true,
-    ".eslintrc.js": true,
-    ".eslintignore": true,
-    ".husky": true
+    ".eslintignore": true
   },
   "hide-files.files": [
     ".next",
@@ -34,16 +29,11 @@
     "next-env.d.ts",
     "package-lock.json",
     "tsconfig.json",
-    "withTwin.js",
     "README.md",
     "next.config.js",
-    "pages/_document.tsx",
-    ".husky/_",
     ".prettierignore",
     ".prettierrc",
-    ".eslintrc.js",
-    ".eslintignore",
-    ".husky"
+    ".eslintignore"
   ],
   "conventionalCommits.scopes": [
     "global"

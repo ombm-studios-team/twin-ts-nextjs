@@ -1,18 +1,18 @@
 module.exports = {
-  extends: ['next/core-web-vitals', 'prettier'],
+  extends: ['next/core-web-vitals', 'prettier', 'plugin:storybook/recommended'],
   plugins: ['react', '@typescript-eslint', 'prettier'],
   env: {
     browser: true,
     es2021: true,
-    node: true,
+    node: true
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 13,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   rules: {
     'react/react-in-jsx-scope': 'off',
@@ -20,25 +20,18 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'import/prefer-default-export': 'off',
     'no-param-reassign': 'off',
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        ts: 'never',
-        tsx: 'never',
-      },
-    ],
+    'import/extensions': ['error', 'ignorePackages', {
+      ts: 'never',
+      tsx: 'never'
+    }],
     'consistent-return': 'off',
     'arrow-body-style': 'off',
     'prefer-arrow-callback': 'off',
     'react/jsx-filename-extension': 'off',
-    'react/function-component-definition': [
-      'error',
-      {
-        namedComponents: 'arrow-function',
-        unnamedComponents: 'arrow-function',
-      },
-    ],
-    'prettier/prettier': 'warn',
-  },
-}
+    'react/function-component-definition': ['error', {
+      namedComponents: 'arrow-function',
+      unnamedComponents: 'arrow-function'
+    }],
+    'prettier/prettier': 'warn'
+  }
+};
