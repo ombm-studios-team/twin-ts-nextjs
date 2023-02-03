@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Primary Button renders correctly 1`] = `"<Button variant="primary">Submit</Button>"`;
+exports[`Button Tests Primary Button renders correctly 1`] = `"<Button variant="primary">Submit</Button>"`;
 
-exports[`Secondary Button renders correctly 1`] = `"<Button variant="secondary">Cancel</Button>"`;
+exports[`Button Tests Secondary Button renders correctly 1`] = `"<Button variant="secondary">Cancel</Button>"`;
 
-exports[`Small Button renders correctly 1`] = `"<Button isSmall>Close</Button>"`;
+exports[`Button Tests Small Button renders correctly 1`] = `"<Button isSmall>Close</Button>"`;

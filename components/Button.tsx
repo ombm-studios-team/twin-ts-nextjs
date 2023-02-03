@@ -33,5 +33,4 @@ const Button = styled.button(({ variant, isSmall }: ButtonProps) => [
   `
 ]);
 
-expect.addSnapshotSerializer(createSerializer());
 export default Button;
