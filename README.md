@@ -1,6 +1,12 @@
-# Next.js & Twin Macro & Emotion + TypeScript
+## Next.js  & TypeScript, & Tailwind CSS
+---
+### Twin Macro & Emotion - (styles management)
+### Husky, Eslint, Lint-Staged - (code quality)
+### Storybook - (component management)
+### Jest, React-Testing Library - (testing)
 
-## Customization
+---
+#### Customization
 
 - [View the config options →](https://github.com/ben-rogerson/twin.macro/blob/master/docs/options.md)
 - [Customizing the tailwind config →](https://github.com/ben-rogerson/twin.macro/blob/master/docs/customizing-config.md)
