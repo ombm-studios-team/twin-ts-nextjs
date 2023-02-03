@@ -17,7 +17,6 @@
     ".prettierignore": true,
     ".prettierrc": true,
     ".eslintignore": true,
-    "withTwin.js": true,
     "tsconfig.json": true,
     "stories": true,
     "pages/_document.tsx": true,
@@ -29,8 +28,7 @@
     ".eslintcache": true,
     ".husky": true,
     "jest.config.js": true,
-    "jest.setup.js": true,
-    "next.config.js": true
+    "jest.setup.js": true
   },
   "hide-files.files": [
     ".next",
@@ -43,7 +41,6 @@
     ".prettierignore",
     ".prettierrc",
     ".eslintignore",
-    "withTwin.js",
     "tsconfig.json",
     "stories",
     "pages/_document.tsx",
@@ -55,8 +52,7 @@
     ".eslintcache",
     ".husky",
     "jest.config.js",
-    "jest.setup.js",
-    "next.config.js"
+    "jest.setup.js"
   ],
   "conventionalCommits.scopes": [
     "global",

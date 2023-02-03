@@ -1,5 +1,4 @@
 import tw, { styled, css, theme } from 'twin.macro';
-import { createSerializer } from '@emotion/jest';
 
 interface ButtonProps {
   variant?: 'primary' | 'secondary';
