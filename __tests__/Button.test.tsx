@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import tw, { styled, css, theme } from 'twin.macro';
-import { expect, jest, test } from '@jest/globals';
 import renderer from 'react-test-renderer';
 import Button from '../components/Button';
 
