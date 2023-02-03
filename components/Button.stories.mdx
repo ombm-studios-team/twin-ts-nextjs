@@ -1,0 +1,34 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
+import { Button } from './Button';
+
+<Meta title="Example/Button" component={Button} />
+
+# Button
+
+A button
+
+export const Template = (args) => <Button {...args} />
+
+<Canvas>
+  <Story name="Primary" args={{
+      label: 'Submit',
+      variant: primary,
+      isSmall: false
+    }}>
+    {Template.bind({})}
+   </Story>
+  <Story name="Secondary" args={{
+      label: 'Cancel',
+      variant: secondary,
+      isSmall: false
+    }}>
+    {Template.bind({})}
+   </Story>
+  <Story name="Secondary" args={{
+    label: 'Close',
+    variant: null,
+    isSmall: true
+  }}>
+    {Template.bind({})}
+   </Story>
+</Canvas>
