@@ -38,15 +38,15 @@ const Table = ({ columns, data }) => {
 
   const styles = {
     header: () => [tw`text-2xl font-bold leading-tight text-gray-600 mb-2.5`],
-    table: () => [tw`border`],
-    table_header: () => [tw`text-left`]
+    table: () => [tw`border-none`],
+    table_header: () => [tw`text-left font-medium text-sm text-gray-500 pb-2.5`]
   };
   // Render the UI for your table
   return (
     <>
       <h4 css={styles.header()}>Household</h4>
       <table {...getTableProps()} css={styles.table()}>
-        <thead style={{ 'text-align': 'left' }}>
+        <thead css={{ 'text-align': 'left' }}>
           {headerGroups.map(headerGroup => (
             <tr key={uuid()} {...headerGroup.getHeaderGroupProps()}>
               {headerGroup.headers.map(column => (
