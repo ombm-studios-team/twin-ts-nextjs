@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTable } from 'react-table';
 import uuid from 'react-uuid';
-import tw, { css } from 'twin.macro';
+import tw from 'twin.macro';
 
 const Table = ({ columns, data }) => {
   const GlobalFilter = ({ globalFilter, setGlobalFilter }) => {

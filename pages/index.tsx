@@ -1,12 +1,12 @@
 import tw from 'twin.macro';
 import { Table } from '../components';
 
-const getShortName = fullName => {
+/* const getShortName = fullName => {
   return fullName
     .split(' ')
     .map(n => n[0])
     .join('');
-};
+}; */
 
 const getData = () => [
   {

@@ -57,7 +57,8 @@
   "conventionalCommits.scopes": [
     "global",
     "testing",
-    "storybook"
+    "storybook",
+    "linting"
   ],
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#d04649",
